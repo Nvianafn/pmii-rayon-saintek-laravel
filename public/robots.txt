@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Area privat / login tidak perlu diindeks
+Disallow: /admin
+Disallow: /login
+Disallow: /storage/framework
+
+Sitemap: https://rayonsaintek.com/sitemap.xml
