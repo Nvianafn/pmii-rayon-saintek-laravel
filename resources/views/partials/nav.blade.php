@@ -26,3 +26,26 @@
     </div>
   </div>
 </header>
+
+<style>
+/* === Navbar mobile fix (self-contained, override app.css via #hdr specificity) === */
+@media(max-width:960px){
+  #hdr{padding:.7rem 0}
+  #hdr.scrolled{padding:.45rem 0}
+  #hdr .nav{gap:.5rem;padding:.45rem .5rem .45rem 1rem}
+  #hdr .nav > .btn-primary{display:none}
+  #hdr .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;font-size:20px;padding:0;border-radius:12px;margin-left:auto}
+  #hdr .brand{gap:.55rem;min-width:0}
+  #hdr .brand .mark{width:36px;height:36px;font-size:15px}
+  #hdr .brand b{font-size:14.5px;white-space:nowrap}
+  #hdr .brand .brand-txt span{font-size:9.5px;letter-spacing:.1em}
+  #mobile-nav{margin-top:.5rem;padding:.75rem .9rem}
+  #mobile-nav a{padding:.8rem .9rem;font-size:15px}
+  #mobile-nav a:last-child{margin-top:.35rem;background:var(--primary);color:#fff;text-align:center;font-weight:600}
+  #mobile-nav a:last-child:hover{background:#003399;color:#fff}
+}
+@media(max-width:420px){
+  #hdr .brand .brand-txt span{display:none}
+  #hdr .brand b{font-size:14px}
+}
+</style>
