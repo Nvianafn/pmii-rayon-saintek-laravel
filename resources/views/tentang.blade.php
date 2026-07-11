@@ -102,9 +102,10 @@
   <div class="wrap">
     <div class="sec-head reveal"><h2>Nilai Dasar Pergerakan</h2></div>
     <div class="nilai-grid">
-      <div class="nilai glass reveal"><h4>Tauhid</h4><p>Mengesakan Allah sebagai fondasi seluruh gerak dan pikir kader.</p></div>
-      <div class="nilai glass reveal"><h4>Kemanusiaan</h4><p>Menjunjung nilai kemanusiaan yang adil dan beradab.</p></div>
-      <div class="nilai glass reveal"><h4>Keadilan</h4><p>Menegakkan keseimbangan dan keberpihakan pada yang lemah.</p></div>
+      <div class="nilai glass reveal"><h4>Tauhid</h4><p>Keyakinan pada keesaan Allah SWT.</p></div>
+      <div class="nilai glass reveal"><h4>Hablumminallah</h4><p>Mengesakan Allah sebagai fondasi seluruh gerak dan pikir kader.</p></div>
+      <div class="nilai glass reveal"><h4>Hablumminannas</h4><p>Menjunjung tinggi keadilan, persamaan, dan pluralisme.</p></div>
+      <div class="nilai glass reveal"><h4>Hablumminalalam</h4><p> Menjaga kelestarian dan tanggung jawab terhadap lingkungan.</p></div>
     </div>
   </div>
 </section>
