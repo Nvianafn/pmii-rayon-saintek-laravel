@@ -3,7 +3,7 @@
   <div class="wrap">
     <nav class="nav glass">
       <a class="brand" href="{{ route('home') }}">
-        <span class="mark">P</span>
+        <img class="mark" src="{{ asset('images/logo.png') }}" alt="Logo PMII Rayon Saintek" style="background:none;padding:0;border-radius:50%;object-fit:cover">
         <span class="brand-txt"><b>{{ Setting::get('nama_rayon', 'PMII Rayon Saintek') }}</b><span>Bergerak &middot; Berpikir &middot; Berkarya</span></span>
       </a>
       <div class="nav-links">
